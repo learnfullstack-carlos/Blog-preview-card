@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@700&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 15px hsl(0, 0%, 7%);
+}
+
+.status {
+    background-color: hsl(47, 88%, 63%);
+    display: block;
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    color: hsl(0, 0%, 7%);
+}
+
+
+.date {
+    font-size: 15px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 950;
+    color: hsl(0, 0%, 7%);
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.description {
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.name-profile {
+    color: hsl(0, 0%, 7%);
+    font-weight: 950;
+}
+
+.picture {
+    width: 50px;
+}
+
+.photo-article {
+    height: 200px;
+    display: flex;
+    width: 300px;
+}
+
+.photo-article img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
